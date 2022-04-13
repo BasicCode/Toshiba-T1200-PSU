@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "TMH1212S")(type "KiCad")(uri "${KIPRJMOD}/MAX776/footprints.pretty")(options "")(descr ""))
+  (lib (name "text_only")(type "KiCad")(uri "/home/tommy/OneDrive/Documents/KiCad/Libraries/Diode_H3F/footprints.pretty/text_only.pretty")(options "")(descr ""))
+  (lib (name "inductor_custom")(type "KiCad")(uri "/home/tommy/OneDrive/Documents/KiCad/Libraries/Diode_H3F/footprints.pretty/inductor_custom.pretty")(options "")(descr ""))
+)
