@@ -37,5 +37,6 @@ Although I don't plan to implement these features, I've tried to design the circ
 
 ## Thanks and References
 Thanks to these forums for helping sole so many problems:
-* (https://forum.vcfed.org/index.php?threads/toshiba-t1200-internal-power-supply-issues.72126/)
-* (http://www.minuszerodegrees.net/manuals/Toshiba/Other/Toshiba%20T1200%20-%20Maintenance%20Manual.pdf)
+* https://forum.vcfed.org/index.php?threads/toshiba-t1200-internal-power-supply-issues.72126/
+* https://forum.vcfed.org/index.php?threads/toshiba-t1200-psu-pinout.1216344/
+* http://www.minuszerodegrees.net/manuals/Toshiba/Other/Toshiba%20T1200%20-%20Maintenance%20Manual.pdf
