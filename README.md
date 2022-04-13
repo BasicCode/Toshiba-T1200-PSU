@@ -11,8 +11,8 @@ This board is designed in KiCad 6.x, custom and third-party footprints are inclu
 * I measured the whole system at boot to draw approx. 700mA at 12V.
 * There is NO output protection (I'm not sure if there ever will be), so if you build one of these then make sure to check the voltage rails before using it.
 
-![New board and old board](https://github.com/BasicCode/Toshiba-T1200-PSU/Images/IMG_20220412_201158.jpg)
-![New board and old board](https://github.com/BasicCode/Toshiba-T1200-PSU/Images/IMG_20220412_202602.jpg)
+![New board and old board](Images/IMG_20220412_201158.jpg "New Board and old board")
+![New board in old computer](Images/IMG_20220412_202602.jpg "New board in old computer")
 
 ## Errata
 These are actual faults that need to be fixed in future designs or when using this design.
