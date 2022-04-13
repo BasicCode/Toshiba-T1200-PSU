@@ -35,3 +35,7 @@ Although I don't plan to implement these features, I've tried to design the circ
 * Arduino-compatable system to interact with the TX/RX lines.
 * LiPo charging, and boost circuit to run off one or two 18650s, OR NiCad.
 
+## Thanks and References
+Thanks to these forums for helping sole so many problems:
+* (https://forum.vcfed.org/index.php?threads/toshiba-t1200-internal-power-supply-issues.72126/)
+* (http://www.minuszerodegrees.net/manuals/Toshiba/Other/Toshiba%20T1200%20-%20Maintenance%20Manual.pdf)
