@@ -2,4 +2,6 @@
   (lib (name "TMH1212S")(type "KiCad")(uri "${KIPRJMOD}/MAX776/footprints.pretty")(options "")(descr ""))
   (lib (name "text_only")(type "KiCad")(uri "/home/tommy/OneDrive/Documents/KiCad/Libraries/Diode_H3F/footprints.pretty/text_only.pretty")(options "")(descr ""))
   (lib (name "inductor_custom")(type "KiCad")(uri "/home/tommy/OneDrive/Documents/KiCad/Libraries/Diode_H3F/footprints.pretty/inductor_custom.pretty")(options "")(descr ""))
+  (lib (name "TMV1212")(type "KiCad")(uri "${KIPRJMOD}/custom_assets/footprints.pretty/TMV1212.pretty")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/custom_assets/footprints.pretty/switch.pretty")(options "")(descr ""))
 )

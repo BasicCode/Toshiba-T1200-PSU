@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TMV_1212S
+#
+DEF TMV_1212S PS 0 40 Y Y 1 L N
+F0 "PS" -600 230 50 H V L BNN
+F1 "TMV_1212S" -600 -300 50 H V L BNN
+F2 "CONV_TMV_1212S" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "IPC 7351B" 0 0 50 H I L BNN "STANDARD"
+F5 "10.7mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "Traco Power" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "March 26, 2020" 0 0 50 H I L BNN "PARTREV"
+DRAW
+S -600 -200 600 200 0 0 10 f
+X -VIN_(GND) 2 -800 -100 200 R 40 40 0 0 I 
+X +VIN_(VCC) 1 -800 100 200 R 40 40 0 0 I 
+X +VOUT 7 800 100 200 L 40 40 0 0 O 
+X -VOUT 5 800 -100 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library
