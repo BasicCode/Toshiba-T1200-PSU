@@ -1,23 +1,26 @@
 # Toshiba-T1200-PSU
 A replacement power supply design for the Toshiba T1200 laptop computer from 1987. The Toshiba T1xxx series are notorious for power supply falures, and the power supply design is complex for the era. While the complicated design did allow for some innovative new power management features for the time, it also allowed for a myriad of annoying failure modes. I say this only because I have not implemented most of the auxiliary features here, but they may be desirable in the future.<br />
 <br />
-This is the initial commit, revision 1, and has a few issues, but it works and the computer boots! It will no doubt be obvious that I am not an engineer, and I certainly don't specialise in SMPS circuit design. I have used modular power options where possible and have tried to follow the recommended design for the -22V SMPS circuit as closely as possible. Please feel free to improve on this design.
+This is revision one, it has the basic requirements to make the machine boot but it lacking any of the extra features of the original supply. **Also, please read the note about input / output protection**. I have used modular power options where possible and have tried to follow the recommended design for the -22V SMPS circuit as closely as possible. Please feel free to improve on this design.
 ![Board Simulation](T1200_PSU.png "Board Simulation")
 
 ## Getting Started
-This board is designed in KiCad 6.x, custom and third-party footprints are included in the repository, and the individual Gerber files are included. **I did most of the design using KiCad under Linux, and when I try to open the project on Windows it complains about incorrect path to files.** I'm not sure if this is a known fault or what.
+This board is designed in KiCad 6.x, custom and third-party footprints are included in the repository, and the individual Gerber files are included.
 * The board is designed to use 12V, like the original, however the invdividual switchmode supplies have different tollerances so you might be able to get away with other supplies but check the datasheets first.
 * I used OSH Park to print the boards (https://oshpark.com/shared_projects/8MR7H5RI).
 * The footprint for the DC Barrel Jack 12V input *should* fit the jack on the original PCB if you want to use that, however I have used a more standard size plug and a modern, off-the-shelf, 12V plug pack. The original power supply is rated for 2.2A.
 * I measured the whole system at boot to draw approx. 700mA at 12V.
-* There is NO output protection (I'm not sure if there ever will be), so if you build one of these then make sure to check the voltage rails before using it.
+* There is NO output protection, so if you build one of these then make sure to check the voltage rails before using it.
 
 ![New board and old board](Images/IMG_20220412_201158.jpg "New Board and old board")
 ![New board in old computer](Images/IMG_20220412_202602.jpg "New board in old computer")
 
-## Errata
-These are actual faults that need to be fixed in future designs or when using this design.
-* Currently none konwn. Please create an issue if you find one.
+## Notes About Input / Output Protection
+Basic input protection is included in the design, and there is some protection inherent to the individual SMPS controllers, however there are further considerations that should be made in future designs.
+* D1 should be sufficient to supply enough current to blow the 2.2A fuse. The details of D1 are not specified in the schematic.
+* Clamping diodes should be added to the outputs. Especially the negative voltage rails which will become positive if D2 fails.
+* Over-current protection of the outputs is provided by the individual switchmode controllers.
+* Over-voltage protection for the inputs is a consideration, however the individual switchmode supplies affort some protection in this regard.
 
 ## TODO
 These things would be nice to fix in the next revision.
