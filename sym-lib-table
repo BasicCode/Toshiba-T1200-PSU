@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name "custom_power")(type "KiCad")(uri "${KIPRJMOD}/custom_assets/custom_power.kicad_sym")(options "")(descr ""))
-  (lib (name "5V_SMPS_Modules")(type "Legacy")(uri "${KIPRJMOD}/custom_assets/LT1614CMS8.lib")(options "")(descr ""))
-  (lib (name "LT1614")(type "Legacy")(uri "${KIPRJMOD}/custom_assets/LT1614CMS8.lib")(options "")(descr ""))
-  (lib (name "TMS1212S")(type "Legacy")(uri "${KIPRJMOD}/custom_assets/TMH1212S.lib")(options "")(descr ""))
-  (lib (name "TMV1212S")(type "Legacy")(uri "${KIPRJMOD}/custom_assets/TMV_1212S.lib")(options "")(descr ""))
-)
