@@ -21,10 +21,6 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
 #backup folder
 T1200_PSU-backups/
 
