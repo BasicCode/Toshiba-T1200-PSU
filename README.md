@@ -18,9 +18,12 @@ The board is designed to be manufactured by JLCPCB using parts from LCSC. The fu
 
 ![Board Installation](Images/pcb_installed_1.jpg "Board Installation")
 ![Board Installation](Images/pcb_installed_2.jpg "Board Installation")
+  
+Some traces of power rail noise are included in the *images* directory. Ripple for the -22V and -9V rails were below the noise floor of my work bench and so have not been included.
 
 ## TODO and Errors
 * Create a video or page to document the install process.
+* 300mV ripple on the 12V rail under load, and a -1V spike when full load is applied. A clamping diode might be useful in a future revision.
 
 ## Thanks and References
 Thanks to these forums for helping sole so many problems:
