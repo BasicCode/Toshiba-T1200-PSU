@@ -8,7 +8,7 @@ This is a drop-in replacement board which has the bare necessities to allow the 
   
 **NOTE:** While I have tried to design a safe system, and tested it using my own personal device as well as relevant test equipment, **I am only a hobbyist** and I strongly encourage you to make your own assessment of the quality of this device.
   
-* [JLCPCB Project](https://oshwlab.com/tommy_tom2000/toshiba-t1200-power-supply)
+* [JLCPCB Project](https://oshwlab.com/tommy_tom2000/toshiba-t1200-power-supply-v1-3)
 * [Buy on Tindie](https://www.tindie.com/products/basiccode/toshiba-t1200-power-supply/)
 
 ![PCB](Images/pcb_top.jpg "PCB")
