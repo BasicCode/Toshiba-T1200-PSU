@@ -11,10 +11,10 @@ This is a drop-in replacement board which has the bare necessities to allow the 
 * [JLCPCB Project](https://oshwlab.com/tommy_tom2000/toshiba-t1200-power-supply)
 * [Buy on Tindie](https://www.tindie.com/products/basiccode/toshiba-t1200-power-supply/)
 
-![PCB](Images/bare_pcb.jpg "PCB")
+![PCB](Images/pcb_top.jpg "PCB")
 
 ## Getting Started
-The board is designed to be manufactured by JLCPCB using parts from LCSC. The full project is free to use and modify, and available [here](https://oshwlab.com/tommy_tom2000/toshiba-t1200-power-supply). The Gerber and BoM files are provided here for those who do not want to use JLCPCB. The previous version of this project was more friendly for hand-soldering is also still available in [past commits](https://github.com/BasicCode/Toshiba-T1200-PSU/commit/b5f09ac5c124c712909910e9a37de9bca65d9860).
+The board is designed to be manufactured by JLCPCB using parts from LCSC. The full project is free to use and modify, and available [here](https://oshwlab.com/tommy_tom2000/toshiba-t1200-power-supply-v1-3). The Gerber and BoM files are provided here for those who do not want to use JLCPCB. The previous version of this project was more friendly for hand-soldering is also still available in [past commits](https://github.com/BasicCode/Toshiba-T1200-PSU/commit/b5f09ac5c124c712909910e9a37de9bca65d9860).
 
 ![Board Installation](Images/pcb_installed_1.jpg "Board Installation")
 ![Board Installation](Images/pcb_installed_2.jpg "Board Installation")
